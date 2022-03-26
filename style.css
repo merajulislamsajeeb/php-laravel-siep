@@ -1,0 +1,180 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+}
+
+body{
+	margin:0; 
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+/************ Header Area ************/
+.overlay{
+	color: #bea44d;
+	background-color: rgba(249, 248, 243, 1);
+}
+/* this is nav area css  */
+.pl-5, .px-5 {
+    padding-left: 13rem!important
+}
+.nav-bar ul li a:hover{
+	color: #bea44d !important;
+
+}
+.slide-text{
+	font-size: 60px;
+    padding-bottom: 300px;
+}
+.slide-text .span{
+	color: #bea44d;
+	background-color: white;
+}
+.slide-icon{
+	color: white;
+	font-size: 20px;
+}
+.icon-size{
+	font-size: 40px;
+}
+.icon-text{
+	font-size: 13px;
+	padding-bottom: 85px;
+}
+.overlay{
+	position: relative;
+}
+.overlay::after{
+		content: "";
+		clear: both;
+		display: block;
+	
+		background-color: rgba(307, 193, 80, .60);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+.feature{
+	color: #bea44d;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	margin: 0;
+	border: 2px solid #bea44d;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .1);
+	display: inline-block;
+}
+.circle svg{
+	padding: 10px;
+	margin: 0;
+}
+/* this is feature work css part  */
+.work-txt{
+	padding-top: 30px;
+	color: black;
+}
+.work-txt h3{
+	color: #bea44d;
+}
+.btn-custom:hover{
+	background-color: #bea44d;
+	font-size: 30px;
+	color: white;
+	padding: 13px;
+}
+.card-title{
+	color: #bea44d;
+}
+.form-area{
+	width: 100%;
+	padding: 0;
+	margin-left: 85px;
+}
+.input-field{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f9edd5;
+}
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f9edd5;
+	font-size: 16px;
+	resize: none;
+  }
+  .btn{
+	  color: white;
+	  background-color: #bea44d;
+	  margin-left: 375px;
+	  padding: 5px 30px;
+	  font-style: bold;
+  }
+  .footer{
+	  background-color: rgba(307, 193, 80, .20);
+	  margin-top: 120px;
+	  padding-bottom: 100px;
+  }
+  .footer-logo{
+	padding-top: 90px;
+  }
+  .red-more{
+	  height: 80px;
+	  width: 50px;
+	  background-color: #bea44d;
+	  border: 5px solid;
+	  border-radius: 50%;
+  }
+  .last-footer{
+	  padding: 10px;
+	  margin: 0;
+	  background-color: #bea44d;
+  }
